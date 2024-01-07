@@ -1,0 +1,165 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url('Images/download.jpg');
+  background-size: cover; 
+  box-sizing: border-box;
+  
+ 
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.remove{
+  
+  margin-left: 10px; 
+  background-color: rgb(230, 83, 83);
+  width:fit-content;
+  animation: fadeIn 1s ease-in-out;
+ 
+}
+
+
+.contacts-container{
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 18%;
+}
+
+.contacts {
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  padding: 10px;
+  margin-bottom: 10px;
+  background:lightblue;
+  border-radius: 10px;
+}
+
+.contacts h3,
+.contacts h4 {
+  margin: 0;
+  padding: 5px;
+  color: black;
+}
+
+/* Optional styles for better appearance */
+.contacts h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 20px;
+  width: 40%;
+}
+
+.contacts h4 {
+  font-size: 16px;
+  color: #555;
+}
+
+.btn{
+  border-radius: 5px;
+  background-color: rgb(46, 178, 188);
+  color: white;
+  border-style: none;
+  width: 80px;
+  height: 30px;
+  font-size: 15px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+}
+
+
+
+.btn-container {
+  display: flex;
+  justify-content: flex-end;
+  width: 60%; 
+  margin: 0 auto; 
+}
+
+h1{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  margin-top: 10px;
+  color: black;
+}
+
+.contact-title:hover{
+color: grey;
+
+}
+
+
+.contact-form{
+  text-align:center;
+  padding: 15px;
+  padding-left: 15px;
+  margin:auto;
+  max-width: 30%;
+  background:  linear-gradient(to right, red, blue);
+  color: white;
+  border-radius: 10px;
+  font-weight: bolder;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  display:block;
+  align-self: center;
+  
+    
+}
+
+
+
+.input{
+  min-height: 34px;
+  width: 50%;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 1em;
+  margin-bottom: 2;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.content{
+  height: 100px;
+}
+
+
+label{
+  display: block;
+  padding: 2px;
+}
+
+h2{
+ font-family:Georgia, 'Times New Roman', Times, serif;
+ color:black;
+ text-align: center;
+ margin-top: 10px;
+
+}
+
+h2:hover{
+  font-size: 1.5rem;
+  color: midnightblue;
+
+  
+}
